@@ -1,0 +1,30 @@
+<html>
+<head>
+	<title>Form Login</title>
+</head>
+<body>
+	<h1>Form Login</h1>
+	<p>Silahkan anda login di form berikut ini untuk menggunakan sisten akademik di Universitas Amikom Yogyakarta</p>
+
+<form action="/login_page.php">
+  Username:<br>
+  <input type="text" name="username" value=""><br>
+
+  Password:<br>
+  <input type="password" id="myPassword" value=""><br>
+
+  <input type="checkbox" name="username" value="anu"> Remember me<br>
+
+<button onclick="myFunction()">Login</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myPassword").value;
+    document.getElementById("demo").innerHTML = x;
+}
+</script>
+</form> 
+</body>
+</html>
