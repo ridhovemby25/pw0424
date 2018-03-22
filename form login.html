@@ -1,21 +1,60 @@
 <html>
 <head>
 	<title>Form Login</title>
+	<link rel="stylesheet" href="style.css">
+<style> 
+
+input[type=text] {
+	width: 50%;
+	padding: 6px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: 3px solid blue;
+	border-radius: 2px;
+}
+input[type=text]:focus {
+    background-color: lightblue;
+}
+input[type=password] {
+	width: 50%;
+	padding: 6px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: 3px solid blue;
+	border-radius: 2px;
+}
+input[type=password]:focus {
+    background-color: lightblue;
+}
+input[type=submit] {
+    background-color: blue;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: center;
+}
+input[type=submit]:hover {
+    background-color: cyan;
+}
+</style>
 </head>
-<body>
-	<h1>Form Login</h1>
-	<p>Silahkan anda login di form berikut ini untuk menggunakan sisten akademik di Universitas Amikom Yogyakarta</p>
-
+<body style="background-image:url('images/background2.png')">
+<table align ="center" style="margin-top:100px; ">
+<tr>
+<td align ="center">
+<div class = "box">
+	<h1>     Log in to MiddleCode     </h1>
+	<p>Insert your username and password</p>
+<br>
 <form action="/login_page.php">
-  Username:<br>
-  <input type="text" name="username" value=""><br>
+  <input type="text" name="username" value="" placeholder ="username"><br>
+  <input type="password" id="myPassword" value="" placeholder ="password"><br>
 
-  Password:<br>
-  <input type="password" id="myPassword" value=""><br>
+  <h4><input type="checkbox" name="username" value="anu">Remember me</h4>
 
-  <input type="checkbox" name="username" value="anu"> Remember me<br>
-
-<button onclick="myFunction()">Login</button>
+<input type="submit" value="Log in">
 
 <p id="demo"></p>
 
@@ -26,5 +65,9 @@ function myFunction() {
 }
 </script>
 </form> 
+</div>
+</td>
+</tr>
+</table>
 </body>
 </html>
