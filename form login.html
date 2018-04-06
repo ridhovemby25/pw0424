@@ -41,33 +41,32 @@ input[type=submit]:hover {
 </style>
 </head>
 <body style="background-image:url('images/background2.png')">
-<table align ="center" style="margin-top:100px; ">
-<tr>
-<td align ="center">
-<div class = "box">
-	<h1>     Log in to MiddleCode     </h1>
-	<p>Insert your username and password</p>
-<br>
-<form action="/login_page.php">
-  <input type="text" name="username" value="" placeholder ="username"><br>
-  <input type="password" id="myPassword" value="" placeholder ="password"><br>
+	<table align ="center" style="margin-top:100px; ">
+		<tr>
+			<td align ="center">
+				<div class = "box">
+				<h1>     Log in to MiddleCode     </h1>
+				<p>Insert your username and password</p>
+				<br>
+				<form action="/login_page.php">
+					<input type="text" name="username" value="" placeholder ="username"><br>
+					<input type="password" id="myPassword" value="" placeholder ="password"><br>
 
-  <h4><input type="checkbox" name="username" value="anu">Remember me</h4>
+					<h4><input type="checkbox" name="username" value="anu">Remember me</h4>
 
-<input type="submit" value="Log in">
+					<input type="submit" value="Log in">
+					<p id="demo"></p>
 
-<p id="demo"></p>
-
-<script>
-function myFunction() {
-    var x = document.getElementById("myPassword").value;
-    document.getElementById("demo").innerHTML = x;
-}
-</script>
-</form> 
-</div>
-</td>
-</tr>
-</table>
+					<script>
+					function myFunction() {
+    				var x = document.getElementById("myPassword").value;
+    				document.getElementById("demo").innerHTML = x;
+					}
+					</script>
+				</form> 
+				</div>
+			</td>
+		</tr>
+	</table>
 </body>
 </html>
