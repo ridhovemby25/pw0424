@@ -1,0 +1,30 @@
+<html>
+<head>
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+	<!-- header -->
+	<div class="header">
+		<h1>Mithrandir<br>
+		<small>Welcome to my website</small>
+		</h1>
+	</div>
+
+	<!-- menu -->
+	<div class="menu">
+		<ul>
+			<li><a href="">Home</a></li>
+			<li><a href="">Product</a></li>
+			<li><a href="">Service</a></li>
+			<li><a href="">Contact</a></li>
+		</ul>
+	</div>
+
+	<!-- content -->
+	<div class="content">
+		<div class="subcontent"></div>
+		<div class="subcontent"></div>
+		<div class="subcontent"></div>
+	</div>
+</body>
+</html>
