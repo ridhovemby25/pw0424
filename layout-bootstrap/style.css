@@ -1,0 +1,59 @@
+.header{
+	background: #00ff99;
+	padding: 5px;
+	margin: 0 auto;
+}
+
+.header h1{
+	background: #ffff00;
+	text-align: right;
+	padding: 15px 20px 20px;
+	margin-right: 20px;
+	font-family: verdana;
+	border-radius: 20px;
+	float: right;
+}
+
+.header small{
+	font-size: 50%;
+	border-bottom: 1px solid #660000;
+}
+
+.menu{
+	margin: 0 auto;
+	background: #00cc00;
+	text-align: center;
+	padding: 5px;
+}
+
+.menu ul li{
+	display: inline;
+}
+
+.menu ul li a{
+	padding: 5px;
+	margin: 20px;
+	color: #fff;	
+	font-weight: bold;
+	border-radius: 20px;
+	font-family: arial;
+	text-decoration: none;
+}
+
+.menu ul li a:hover{
+	background: #0066ff;
+}
+
+.content{
+
+	margin:  0 auto;
+	background: #00ff99;
+	padding: 5px;
+}
+
+.subcontent{
+	background: #ffff99;
+	float: left;
+	border-radius: 15px;
+	margin: 5px;
+}

@@ -1,0 +1,46 @@
+<html>
+<head>
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+	<!-- header -->
+	<div class="header">
+		<img src="images/logo.png" width="80" height="80">
+		<h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque,                                 
+		<br>laboriosam veritatis, quos non quis ad persipiatis, totam corporis ea, alias ut unde</h5>
+	</div>
+
+
+	<!-- menu -->
+	<div class="nav">
+		<h2 style="color: white">Welcome to our Project</h2>
+		<h2 style="color: white">IT'S NICE TO MEET YOU</h2>
+	</div>
+
+	<!-- content -->
+	<div class="content">
+		<h2 align="center">PROJECT</h2>
+		<div class="subcontent">
+			<img src="images/golden.png" width="250" height="250"><br>Golden Project
+		</div>
+		<div class="subcontent">
+			<img src="images/treehouse.png" width="250" height="250"><br>Treehouse Project
+		</div>
+
+		<div class="subcontent">
+			<img src="images/startup-framework.png" width="250" height="250"><br>Startup Framework Project
+		</div>
+	</div>
+	<div class="content2">
+		<h2 align="center">Konversi mata uang</h2>
+		<input type="text"><br><br>
+		<input type="radio"> Konversi ke USD</input>
+		<input type="radio"> Konversi ke IDR</input>
+		<br><br>
+		<input type="button" value="Hitung"></input>
+	</div>
+	<div class="footer">
+		<p>2018 - pradana ridho</p>
+	</div>
+</body>
+</html>
